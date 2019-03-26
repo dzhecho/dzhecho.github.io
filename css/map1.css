@@ -1,0 +1,155 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color:#fff;
+}
+
+.intro img {
+  width:100%;
+  margin:0 auto;
+}
+
+.intro h1{
+  color:white;
+  font-weight:lighter;
+  font-size:40px;
+}
+
+.intro p{
+  color:white;
+  font-weight:lighter;
+  font-size:25px;
+  text-align: justify;
+}
+.intro {
+  background-color: black;
+  filter: 70%;
+}
+
+.intro .container-fluid {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+
+}
+
+.btn-primary {
+  background-color: white;
+  border-color: white;
+  color: #1d6597;
+  font-weight: lighter;
+}
+
+.intro .btn-xl {
+  padding: 1rem 2rem;
+}
+
+.intro .btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.gallery {
+  border: 1px solid black;
+}
+
+div.gallery:hover {
+  border: 1px solid white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+div.desc {
+  padding: 0;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+div.wrapper {
+  height: 500px;
+
+}
+
+div.media {
+
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper h1 {
+  font-weight: lighter;
+
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 0;
+
+}
+
+.wrapper h1:hover {
+  color: #1d6597;
+  transition: .5s;
+
+}
+
+.soc li {
+  list-style: none;
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 15px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.soc li:hover {
+  color: #1d6597;
+  border: 1px solid #1d6597;
+  transition: .5s;
+}
